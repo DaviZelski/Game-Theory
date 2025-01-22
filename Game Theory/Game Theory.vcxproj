@@ -19,10 +19,15 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Company.h" />
     <ClInclude Include="GameParameters.h" />
+    <ClInclude Include="Market.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Company.cpp" />
     <ClCompile Include="GameParameters.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Market.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

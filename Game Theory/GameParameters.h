@@ -1,12 +1,11 @@
 #pragma once
 class GameParameters
 {
-private:
-	int mktDemand;
-	int numRounds;
-
 public:
-	
+
+	GameParameters();
+
+	GameParameters(int, int);
 
 	int GetMktDemand() {
 		return mktDemand;
@@ -23,5 +22,10 @@ public:
 	void SetNumRounds(int rounds) {
 		numRounds = rounds;
 	}
+
+private:
+	int mktDemand;
+	int numRounds;
+	void validate(int rounds , int demand);
 };
 

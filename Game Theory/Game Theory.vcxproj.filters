@@ -18,9 +18,24 @@
     <ClInclude Include="GameParameters.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Market.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Company.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GameParameters.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Market.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Company.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
