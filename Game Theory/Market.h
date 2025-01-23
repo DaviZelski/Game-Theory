@@ -6,12 +6,16 @@
 class Market
 {
 public:
-	int numCompanies;
 	
-	Market();
 
-	Market(int demand, int companies) : totalDemand(demand), numCompanies(companies) {
-		std::cout << "Market initialized with " << totalDemand << " total demand and " << numCompanies << " companies" << std::endl;
+	Market(int demand, int companies);
+
+	void setTotalDemand(int demand) {
+		totalDemand = demand;
+	}
+
+	void setCompanies(int companies) {
+		numCompanies = companies;
 	}
 	//Distribute Demand: Calculates market shares for each company based on their prices.
 
@@ -23,6 +27,7 @@ public:
 
 	//Print Market Summary: Outputs the current market state for debugging or analysis.
 private:
+	int numCompanies;
 	int totalDemand;
 	std::vector<int> companyShares;
 	std::vector<double> companyPrices;
