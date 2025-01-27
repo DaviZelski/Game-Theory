@@ -5,7 +5,7 @@ public:
 
 	GameParameters();
 
-	GameParameters(int, int);
+	GameParameters(int rounds, int demand);
 
 	int GetMktDemand() {
 		return mktDemand;
